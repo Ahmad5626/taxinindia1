@@ -1,0 +1,43 @@
+.Registration{
+    background-image: url(https://www.setbiz.in/wp-content/uploads/2024/06/glr-13.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.Registration-box{
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+.Registration-box-heading{
+    text-align: center;
+    color: white;
+}
+.Registration-box-heading h1{
+    color: white;
+}
+.Registration-box-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+   
+}
+@media(max-width: 768px){
+    .Registration-box-boxes{
+        gap: 40px; flex-wrap:wrap ;
+    }
+}
+.Registration-box-boxes-child{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+   
+}
+
+.pbmit-main-logo{
+    width: 218px !important;
+    height: auto !important;
+    max-height: max-content !important;
+}

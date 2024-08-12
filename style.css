@@ -20,21 +20,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 10px;
+    flex-wrap: wrap;
    
-}
-@media(max-width: 768px){
-    .Registration-box-boxes{
-        gap: 40px; flex-wrap:wrap ;
-    }
 }
 .Registration-box-boxes-child{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px black;
+    width: 22%;
+height: 400px;
+overflow: auto;
    
 }
+@media(max-width: 768px){
+    .Registration-box-boxes{
+        gap: 40px; flex-wrap:wrap ;
+    }
+    .Registration-box-boxes-child{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px black;
+        width: 90%;
+       
+    }
+    .Registration-box-boxes{
+        justify-content: center;
+    }
+}
+
 
 .pbmit-main-logo{
     width: 218px !important;

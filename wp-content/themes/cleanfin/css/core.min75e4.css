@@ -672,7 +672,9 @@ body.rtl .pbmit-heading-subheading .pbmit-element-title .split-line div {
 .pbmit-heading-subheading .pbmit-element-heading,
 .pbmit-heading-subheading .pbmit-element-title,
 .pbmit-heading-subheading:not(.pbmit-reverse-heading-yes) .pbmit-element-title {
-    margin-bottom: 0
+    margin-bottom: 0;
+    text-align: center;
+    
 }
 
 .pbmit-heading-subheading .pbmit-heading-desc {

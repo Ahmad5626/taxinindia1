@@ -57,3 +57,12 @@ overflow: auto;
     height: auto !important;
     max-height: max-content !important;
 }
+
+.Thank{
+    display: none;
+}
+@media(max-width: 480px){
+    .Thank{
+        display: block;
+    }
+}

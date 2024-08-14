@@ -19,7 +19,7 @@
 }
 
 .pbmit-ihbox-style-1 .pbmit-icon-type-icon i {
-    font-size: 100px;
+    font-size: 40px;
     line-height: 100px;
     color: var(--pbmit-cleanfin-global-color)
 }
@@ -92,7 +92,7 @@
 
 @media (max-width:1400px) {
     .pbmit-ihbox-style-1 .pbmit-icon-type-icon i {
-        font-size: 90px;
+        font-size: 60px;
         line-height: 90px
     }
 }

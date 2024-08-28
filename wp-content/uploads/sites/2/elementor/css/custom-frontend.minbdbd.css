@@ -941,7 +941,8 @@ h1.entry-title {
 }
 
 .elementor-widget-wrap>.elementor-element {
-    width: 100%
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .elementor-widget-wrap.e-swiper-container {
@@ -2831,6 +2832,7 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 .elementor-element .elementor-widget-container {
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
     text-align: justify;
+    padding-bottom: 20px;
 }
 
 .elementor-button {

@@ -123,7 +123,7 @@
 .site-footer,
 .site-footer.pbmit-bg-color-custom:before {
     background-color: #111926;
-    background-image: url(https://cleanfin-demo.pbminfotech.com/demo1/wp-content/uploads/sites/2/2023/07/footer-bg-img.png);
+    background-image: url(wp-content/uploads/sites/2/2023/07/footer-bg-img.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto;
@@ -151,7 +151,7 @@
 .error404 .site-content-wrap,
 .error404 .pbmit-bg-color-custom>.site-content-wrap:before {
     background-color: rgba(33, 44, 64, .5);
-    background-image: url(https://cleanfin-demo.pbminfotech.com/demo1/wp-content/uploads/sites/2/2023/08/404-bg.jpg);
+    background-image: url(wp-content/uploads/sites/2/2023/08/404-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
